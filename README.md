@@ -26,7 +26,7 @@ $ npm install theapi
 
 then import it and create an instance providing an OpenAI API key
 
-```
+```ts
 import TheApi from "theonlyapi";
 
 const api = TheAPI("sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
