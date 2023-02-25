@@ -2,8 +2,8 @@
 
 - Are you annoyed having multiple APIs and SDKs in your project?
 - Are you tired of maintaining too many dependencies? 
-- Do you hate browsing documentations and learning new stuff?
-- Have you looked for one size fits all solution but never found any?
+- Do you hate browsing documentations and learning new things?
+- Have you looked for a one-size-fits-all solution solution but never found any?
 
 Well... fear no more cause the The Only API is here!
 
@@ -14,7 +14,7 @@ Well... fear no more cause the The Only API is here!
 - Supports all possible response data models
 - Asynchronous
 - Open source (duh!)
-- Did I mentioned it's strongly typed?
+- Did I mention it's strongly typed?
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ The Only API is available on NPM. To install it in your project type:
 $ npm install theonlyapi
 ```
 
-then import it and create an instance providing an OpenAI API key
+Then import it and create an instance, providing an OpenAI API key:
 
 ```ts
 import TheApi from "theonlyapi";
@@ -34,7 +34,7 @@ const api = TheAPI("sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
 ## Usage
 
-For each call The Only API requires to provide a function name you'd like to call, input parameters and then inside AsType method, a signature of the result data type you'd like to get. You can start with something simple, like:
+For each call, The Only API requires you to provide a function name you'd like to call, input parameters and then inside AsType method, a signature of the result data type you'd like to receive. You can start with something simple, like:
 
 ```ts
 const result = await api.getTheAnswerToLifeTheUniverseAndEverything().AsType({ answer: Number})
@@ -60,7 +60,7 @@ const result = await api
 //{ temperature: 71.3 }
 ```
 
-or try more complicated response types:
+or try more complex response types:
 
 ```ts
 const result = await api
@@ -132,4 +132,4 @@ const result = await api
 
 ## Disclaimer
 
-This API might occasionally produce false results or return made up data, but let's be honest - every software engineer prefers clean code over correctness of program execution, so enjoy anyways!
+This API might occasionally produce false results or return made-up data, but let's be honest - every software engineer prefers clean code over correctness of program execution, so enjoy anyways!
