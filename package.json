@@ -1,11 +1,15 @@
 {
   "name": "theapi",
   "version": "1.0.0",
-  "description": "One API to rule them all!",
+  "description": "The one API to rule them all!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukasz-wronski/theapi"
   },
   "author": "Łukasz Wroński",
   "license": "ISC",
