@@ -1,5 +1,5 @@
 {
-  "name": "theapi",
+  "name": "theonlyapi",
   "version": "1.0.0",
   "description": "The one API to rule them all!",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukasz-wronski/theapi"
+    "url": "https://github.com/lukasz-wronski/theonlyapi"
   },
   "author": "Łukasz Wroński",
   "license": "ISC",
