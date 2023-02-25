@@ -1,0 +1,18 @@
+{
+  "name": "theapi",
+  "version": "1.0.0",
+  "description": "One API to rule them all!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "author": "Łukasz Wroński",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
