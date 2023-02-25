@@ -132,4 +132,4 @@ const result = await api
 
 ## Disclaimer
 
-This API might occasionally produce false results or return made-up data, but let's be honest - every software engineer prefers clean code over correctness of program execution, so enjoy anyways!
+Although The Only API is a production grade product, it might occasionally produce false results or return made-up data, but let's be honest - every software engineer prefers clean code over correctness of program execution, so enjoy anyways!
