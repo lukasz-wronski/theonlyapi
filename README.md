@@ -21,7 +21,7 @@ Well... fear no more cause the The Only API is here!
 The Only API is available on NPM. To install it in your project type:
 
 ```
-$ npm install theapi
+$ npm install theonlyapi
 ```
 
 then import it and create an instance providing an OpenAI API key
