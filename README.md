@@ -1,5 +1,8 @@
 # The Only API - one API to rule them all!
 
+[![npm version](https://badge.fury.io/js/theonlyapi.svg)](https://badge.fury.io/js/theonlyapi) [![install size](https://packagephobia.com/badge?p=theonlyapi)](https://packagephobia.com/result?p=theonlyapi) [![awesome yes](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat)](https://github.com/lukasz-wronski/theonlyapi/)
+
+
 - Are you annoyed having multiple APIs and SDKs in your project?
 - Are you tired of maintaining too many dependencies? 
 - Do you hate browsing documentations and learning new things?
